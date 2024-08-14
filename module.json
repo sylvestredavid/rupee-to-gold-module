@@ -5,9 +5,11 @@
   "version": "1.0.0",
   "author": "David Sylvestre",
   "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
-  "scripts": [],
-  "esmodules": ["scripts/rupee-to-gold.js"],
+  "compatibleCoreVersion": "11",
+  "scripts": [
+    "scripts/rupee-to-gold.js"
+  ],
+  "esmodules": [],
   "styles": [],
   "packs": [],
   "system": [],
