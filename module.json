@@ -3,7 +3,11 @@
   "title": "Auto Gold Adder For Rupee",
   "description": "A module that automatically adds gold to the actor's inventory when a rupee is added.",
   "version": "1.0.0",
-  "author": "David Sylvestre",
+  "authors": [
+    {
+      "name": "David Sylvestre"
+    }
+  ],
   "compatibility": {
     "minimum": "10",
     "verified": "11"
