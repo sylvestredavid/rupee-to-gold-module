@@ -1,18 +1,19 @@
 {
-  "name": "rupee-to--gold-module",
-  "title": "Auto Gold Adder For Rupee",
+  "id": "rupeeToGold",
+  "name": "rupeeToGold",
+  "title": "rupee-to-gold",
   "description": "A module that automatically adds gold to the actor's inventory when a rupee is added.",
-  "version": "1.0.0",
   "authors": [
     {
-      "name": "David Sylvestre"
+      "name": "sylvestredavid"
     }
   ],
+  "version": "0.0.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "11"
+    "verified": "12"
   },
-  "scripts": [
-    "scripts/rupee-to-gold.js"
-  ]
+
+  "styles": [],
+  "esmodules": ["scripts/rupee-to-gold.js"]
 }
