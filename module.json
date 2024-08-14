@@ -4,14 +4,11 @@
   "description": "A module that automatically adds gold to the actor's inventory when a rupee is added.",
   "version": "1.0.0",
   "author": "David Sylvestre",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
   "scripts": [
     "scripts/rupee-to-gold.js"
-  ],
-  "esmodules": [],
-  "styles": [],
-  "packs": [],
-  "system": [],
-  "dependencies": []
+  ]
 }
